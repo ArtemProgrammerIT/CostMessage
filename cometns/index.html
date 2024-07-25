@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="src/script.js"></script>
+    <link rel="stylesheet" href="src/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добро пожаловать в коментарии!</title>
+</head>
+<body class="bg">
+    <h1 style="margin-left: 25%;">CostMessage.com | Возможность общаться с другими людьми!</h1>
+    <center>
+    <input type="text" id="name" placeholder="Введите ваш NickName"> <br>
+    <input type="text" id="message" placeholder="Напишите комментарий!"> <br>
+    <button onclick="add()">отправить</button>
+    </center>
+    <div class="chat">
+
+        <h1>Это самое начало переписки:</h1>
+
+
+        <div class="message">
+            <h2>(Недо)Программист:</h2>
+            <img onclick="del()" width="10px" height="13px" src="images/trash.png">
+            <span>Я это говно сделал)</span>
+        </div>
+    </div>
+</body>
+</html>

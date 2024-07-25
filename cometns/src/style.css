@@ -49,6 +49,20 @@ h2 {
     margin-top: 0px;
 }
 
+h3 {
+  font-family: Calibri;
+}
+
+a {
+  font-family: "Monocom", monospace;
+  font-weight: 500;
+  text-decoration: solid;
+  background-color: cadetblue;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .message {
     margin: 2%;
     max-width: 100%;
